@@ -236,6 +236,7 @@ header .logo {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.396);
 }
 
+
 .container-lenguages {
     display: flex;
     justify-content: center;
@@ -246,9 +247,13 @@ header .logo {
 
 .container-lenguages .text{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.396);
-    padding: 30px;
+    padding: 10px;
     border-radius: 20px;
-    width: 40%;
+    width: 220px;
+}
+
+.container-lenguages .text:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.549);
 }
 
 #skills i {
@@ -438,13 +443,13 @@ header .logo {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 footer .redes a {
     padding: 3px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 footer .redes i:hover,
@@ -453,8 +458,18 @@ h4:hover {
 }
 
 footer h4{
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 900px) {
 
@@ -462,6 +477,9 @@ footer h4{
         width: 100%;
     }
 
+    hr{
+        background-color: red;
+    }
     .container {
         max-width: 90%;
     }
@@ -573,6 +591,11 @@ footer h4{
         padding: 20px;
     }
 
+    #skills .text {
+        width: 350px;
+    }
+
+
     #skills .text a {
         font-size: 3em;
     }
@@ -661,6 +684,9 @@ footer h4{
 
     #contact .boton button {
         font-size: 0.7em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 }
