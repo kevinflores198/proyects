@@ -12,7 +12,6 @@ body {
     background-size: cover;
     font-family: Roboto, sans-serif;
     padding: 10px;
-
 }
 
 h1 {
@@ -141,7 +140,7 @@ header .logo {
     justify-content: center;
     align-items: center;
     padding: 5px;
-    font-size: 4em;
+    font-size: 3em;
 
 }
 
