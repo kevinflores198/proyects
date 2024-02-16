@@ -1,0 +1,531 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  color: white;
+  background-image: linear-gradient(60deg, #081b29 0%, #081b29e8 100%);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Roboto, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+h3 {
+  font-size: 2em;
+
+}
+
+p {
+  font-size: 1.25em;
+  font-style: italic;
+
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.25em;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scrol {
+  height: 100px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.color {
+  color: rgb(18, 251, 29);
+
+}
+
+.color:hover {
+  color: rgb(110, 255, 118);
+
+}
+
+/*nav bar*/
+
+
+header p:hover {
+  color: rgb(18, 251, 29);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  padding: 5px 20px;
+}
+
+header nav a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 10px 8px;
+}
+
+header a:hover {
+  color: rgb(18, 251, 29);
+}
+
+header .logo {
+  padding: 5px 20px;
+  margin: 0;
+}
+
+header img {
+  height: 40px;
+}
+
+header img:hover {
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.503);
+}
+
+/* first page */
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home .image {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home .text {
+  padding: 10px;
+}
+
+#home img {
+  width: 180px;
+  border-radius: 20%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.396);
+}
+
+#home h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+#home p {
+  text-align: center;
+  width: 350px;
+
+}
+
+#home h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 3em;
+
+}
+
+#home h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 2.2em;
+}
+
+/* second page */
+
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 110vh; */
+}
+
+#about .container {
+  padding: 10px;
+}
+
+#about h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 2.2em;
+}
+
+#about p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+
+}
+
+/* third page */
+
+#skills {
+  display: flex;
+  justify-content: center;
+}
+
+#skills a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#skills .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#skills .logo {
+  width: 30px;
+  height: 30px;
+}
+
+#skills .title a {
+  padding: 4px;
+}
+
+#skills h3 {
+  font-size: 2.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#skills h4 {
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+#skills i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills img {
+  width: 380px;
+}
+
+
+#skills .fa-brands {
+  font-size: 2em;
+  color: white;
+  padding: 10px;
+}
+
+#skills .fa {
+  width: 60px;
+}
+
+#skills .container-lenguages {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px 20px;
+}
+
+#skills .container-lenguages .text {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.396);
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  background-image: linear-gradient(60deg, #081b29 0%, #081b2900 100%);
+}
+
+#skills .container-lenguages .text:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.549);
+}
+
+#skills .container-lenguages .container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+#skills .container-lenguages .container h3 {
+  color: rgb(18, 251, 29);
+}
+
+#skills .container-lenguages .container a {
+  padding: 10px;
+}
+
+#skills .lenguage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  text-align: none;
+}
+
+
+/* second on skills page*/
+
+#skills .container-diploma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills .container-diploma img {
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.396);
+}
+
+#skills .container-diploma .container-idioms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#skills .container-idioms h1 {
+  font-size: 2.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#skills .container-idioms h2 {
+  font-size: 1.8em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+#skills .container-idioms h3 {
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* forfh page */
+
+
+#experience {
+  padding: 15px;
+  font-size: 1.3em;
+}
+
+
+#experience span:hover {
+  color: rgb(166, 250, 171);
+}
+
+#experience span:active {
+  color: white;
+}
+
+#experience h3 {
+  font-size: 2.2em;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#experience h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#experience .text h5 {
+  font-size: 1.1em;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#experience .container h2 {
+  font-size: 1.8em;
+}
+
+#experience .text a {
+
+  text-decoration: none;
+  color: white;
+  font-size: 1.4em;
+}
+
+
+#experience .text p {
+  width: 350px;
+}
+
+#experience .container .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* fifht page */
+
+#contact {
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+#contact .container {
+  background-image: linear-gradient(60deg, #081b29 0%, #081b2992 100%);
+  border-radius: 20px;
+  padding: 20px 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.396);
+}
+
+#contact .container:hover {
+  background-color: rgba(0, 0, 0, 0.183);
+}
+
+#contact .container h3 {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+}
+
+#contact .inputs input {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.5em;
+  border-radius: 8px;
+}
+
+#contact .tarea input {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 0.5em;
+  border-radius: 10px;
+}
+
+#contact .inputs {
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .tarea {
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.boton button {
+  padding: 8px;
+  width: 80px;
+  border-radius: 8px;
+  background-color: rgb(18, 251, 29);
+  color: rgb(22, 22, 22);
+  font-size: 1em;
+}
+
+.boton button:hover {
+  color: black;
+  background-color: rgb(110, 255, 118);
+
+
+}
+
+.boton button:active {
+  background-color: rgb(167, 245, 171);
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.388);
+}
+
+footer .redes a {
+  padding: 3px;
+  font-size: 1em;
+}
+
+footer .redes i:hover{
+  color: rgb(18, 251, 29);
+}
+
+footer h4 {
+  font-size: 1.2em;
+}
+
+footer h4:hover{
+  color: rgb(18, 251, 29);
+}
+
+footer .fa-brands{
+  font-size: 2em;
+  color: white;
+  padding: 5px;
+}

@@ -82,7 +82,6 @@ header .logo {
 }
 
 header .container {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,11 +93,11 @@ header nav {
     /*centramos*/
     text-align: center;
     flex-direction: column;
-
 }
 
 header a {
-
+    text-decoration: none;
+    padding: 10px;
     /*sacamos cada linkeo que se hace*/
     font-weight: bold;
     /*negrita*/
@@ -348,7 +347,7 @@ footer .container {
 
     #caracteristics .container {
         text-align: initial;
-        
+
     }
 
     #final {
