@@ -8,7 +8,7 @@ function App() {
       <header>
         <div className="container">
           <div className="logo">
-            <p>kevin_Flores</p>
+            <p>Kevin Flores</p>
           </div>
           <nav>
             <a href="#home" type="button">Home</a>
