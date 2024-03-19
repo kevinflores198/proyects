@@ -140,7 +140,7 @@ header img:hover {
 
 #home img {
   width: 180px;
-  border-radius: 20%;
+  border-radius: 100%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.396);
 }
 
@@ -255,6 +255,11 @@ header img:hover {
 
 #skills img {
   width: 380px;
+}
+
+#skills .container-lenguages .text img {
+  height: 30px;
+  width: auto;
 }
 
 
@@ -454,12 +459,14 @@ header img:hover {
   border-radius: 8px;
 }
 
-#contact .tarea input {
+#contact .tarea textarea {
   width: 100%;
   height: 200px;
   padding: 10px;
   font-size: 0.5em;
   border-radius: 10px;
+  font-size: 0.7em;
+
 }
 
 #contact .inputs {
@@ -518,20 +525,152 @@ footer .redes a {
   font-size: 1em;
 }
 
-footer .redes i:hover{
+footer .redes i:hover {
   color: rgb(18, 251, 29);
 }
 
 footer h4 {
   font-size: 1.2em;
+  color: rgb(112, 112, 112);
+
 }
 
-footer h4:hover{
+footer h4:hover {
   color: rgb(18, 251, 29);
 }
 
-footer .fa-brands{
+footer .fa-brands {
   font-size: 2em;
-  color: white;
+  color: rgb(112, 112, 112);
   padding: 5px;
+}
+
+@media (min-width:700px) {
+
+
+  body {
+    font-size: 2em;
+  }
+
+  header .container {
+    display: row;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  #home .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #home img {
+    height: 450px;
+    width: auto;
+  }
+
+  #home p {
+    width: 100%;
+    text-align: start;
+    justify-content: start;
+    margin-top: 10px;
+  }
+
+  #home h1 {
+    width: 100%;
+    text-align: start;
+    justify-content: start;
+    margin: 0;
+  }
+
+  #home h4 {
+    width: 100%;
+    justify-content: start;
+    margin: 0;
+  }
+
+  #home h3 {
+    width: 100%;
+    justify-content: start;
+    margin: 0;
+  }
+
+  #about .container {
+    display: flex;
+    width: 100%;
+    margin: none;
+  }
+
+  #about p {
+    width: 100%;
+    justify-content: start;
+    text-align: start;
+    margin-left: 20px;
+  }
+
+  #skills h3 {
+    margin: 0;
+  }
+
+  #skills .container-lenguages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #skills .container-lenguages .text img {
+    height: 50px;
+    width: auto;
+  }
+
+  #skills .container {
+    width: 100%;
+  }
+
+  #skills .text {
+    width: 200px;
+  }
+
+  #skills .container-diploma img {
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  #skills .container-idioms .text {
+    width: auto;
+  }
+
+  #experience .container .text p {
+    width: auto;
+    font-size: 1em;
+  }
+
+  #experience .container .text h4 {
+    text-align: center;
+  }
+
+  #contact .container h3{
+    font-size: 1.8em;
+  }
+
+  #contact .container .boton{
+    width: auto;
+  }
+
+  #contact .container .boton button{
+    width: auto;
+    font-size: 0.8em;
+  }
+
+  footer h4{
+    margin: 0;
+    font-size: 1em;
+  }
+
+  footer .redes{
+    font-size: 0.8em;
+  }
 }

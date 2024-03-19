@@ -22,13 +22,10 @@ function App() {
 
       <div>
         <section id="home">
-
           <div className="container">
-
             <div className="image">
               <img src="perfil.png" alt=""></img>
             </div>
-
             <div className="text">
               <h4>Hi, I am...</h4>
               <h1>Kevin Flores</h1>
@@ -91,7 +88,10 @@ function App() {
                 <a className="lenguage" href="">Java</a>
                 <i className="fa-brands fa-java"></i>
                 <a className="lenguage" href="">MySQL</a>
-                <i className="fa-brands"></i>
+                <i className="fa-brands"><img src='icons8-base-de-datos-50.png' /></i>
+                <a className="lenguage" href="">Spring</a>
+                <i className="fa-brands"><img src='icons8-spring-24.png' /></i>
+
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ function App() {
             <img src="certificado egg.jpeg"></img>
           </div>
           <div className="container-idioms">
-            <h3>Idioms</h3>
+            <h3>second_Idiom</h3>
             <div className="text">
               <a href="https://funval.com"></a>
               <h1>funval_English_<span className="color">Academy</span></h1>
@@ -122,15 +122,15 @@ function App() {
             <h5>from 2022-2024</h5>
             <div className="cont">
               <p>
-                <span className="color">Team lead</span>: Lead a team of 70 agents, assiting them in cases that they
+                <span className="color">Team lead</span>: Lead a team of 40 agents, assiting them in cases that they
                 don't know how to proceed. Talk to supervisors to order the agents chart. Be responsable and very
                 helpful to them, giving and winning their confidence, always being professional.
               </p>
             </div>
             <div className="cont">
               <p>
-                <span className="color">Tech support agent</span>: In charge to give a great assistence to customers who
-                need fix issues to their cellphones.
+                <span className="color">Tech support agent</span>: In charge to give a perfect assistence to customers who
+                need to fix issues with their smartphones. Make shipments with USPS, FedEx. Work in team.
               </p>
             </div>
 
@@ -144,7 +144,8 @@ function App() {
             <div className="cont">
               <p>
                 <span className="color">Calls agent</span>: Speed in getting confidence to people who are called by me.
-                Take an appointment to learn more about the product and agree to use it in a future.
+                Help people to get a meeting with a coordinator and that they can access to obtain the product
+
               </p>
             </div>
           </div>
@@ -152,8 +153,7 @@ function App() {
         <div className="container">
           <div className="text">
             <h4><a target="_blank" href="https://www.churchofjesuschrist.org/?lang=spa"><span className="color">The Church
-              of Jesus Christ</span> </a></h4>
-            <h4><a target="_blank" href="https://www.churchofjesuschrist.org/?lang=spa"><span className="color">of Later Day
+              of Jesus Christ of Later Day
               Saints</span> </a></h4>
             <h5>from 2019-2021</h5>
             <div className="cont">
@@ -209,7 +209,7 @@ function App() {
 
           <div className="tarea">
 
-            <input placeholder="Send an email" name="" id=""></input>
+            <textarea placeholder="Send an email" name="" id=""></textarea>
 
           </div>
 
