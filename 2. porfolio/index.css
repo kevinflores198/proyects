@@ -59,11 +59,9 @@ html {
 }
 
 #skills .container-lenguages {
-  margin-bottom: 300px;
 }
 
 #skills .container-diploma {
-  margin-bottom: 300px;
 
 }
 
@@ -335,6 +333,24 @@ header img:hover {
   padding: 10px;
 }
 
+.pathway-parragraph {
+padding: 10px;
+  width: 90%;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.titulebyu{
+  color: red;
+  margin: 0;
+}
+
 #skills .lenguage {
   display: flex;
   justify-content: center;
@@ -390,6 +406,8 @@ header img:hover {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  margin-top: 50px;
+  
 }
 
 /* forfh page */
@@ -575,7 +593,7 @@ footer .fa-brands {
   padding: 5px;
 }
 
-@media (min-width:900px) {
+@media (min-width:800px) {
 
 
   body {
@@ -598,16 +616,12 @@ footer .fa-brands {
   }
 
   #skills .container-lenguages {
-    margin-bottom: 300px;
+    margin-top: 600px;
+
   }
 
   #skills .container-diploma {
-    margin-bottom: 300px;
-
-  }
-
-  #experience {
-    height: 2100px;
+    margin-top: 20px;
   }
 
   #contact {
@@ -689,6 +703,7 @@ footer .fa-brands {
     display: flex;
     justify-content: space-between;
     width: 90%;
+    margin-top: 20px;
   }
 
 

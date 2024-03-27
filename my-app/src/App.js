@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-
+      
       <header>
         <div className="container">
           <div className="logo">
@@ -31,13 +31,10 @@ function App() {
               <h1>Kevin Flores</h1>
               <h3>full_stack_ <span className="color">Developer</span> </h3>
               <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum."
+              Acquire greater knowledge in all tasks, contributing 
+              my greatest effort and dedication to meet and exceed 
+              the proposed goals to achieve expectations in favor of the company too apply.
+              Also, knowing always be respectful and one of the best options at the time to work,
               </p>
             </div>
           </div>
@@ -49,11 +46,13 @@ function App() {
 
           <h3>about_<span className="color">Me</span></h3>
           <p>
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-            nesciunt."
+          I am a person who tries to relate to a team in the 
+          work environment and always getting confidence to 
+          work better in all areas, always respectful and focused on 
+          the tasks that must be done, trying to apply 
+          the leadership principles learned in previous jobs, 
+          both from me and from my leaders. I gain confidence 
+          quickly and that helps me relate better to people or team.
           </p>
         </div>
       </section>

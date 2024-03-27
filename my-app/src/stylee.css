@@ -233,7 +233,7 @@ header .logo {
 
 #skills .container-diploma img {
     border-radius: 10px;
-    width:90%;
+    width: 90%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.396);
 }
 
@@ -246,14 +246,14 @@ header .logo {
     margin: 20px 20px;
 }
 
-.container-lenguages .text{
+.container-lenguages .text {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.396);
     padding: 10px;
     border-radius: 20px;
     width: 220px;
 }
 
-.container-lenguages .text:hover{
+.container-lenguages .text:hover {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.549);
 }
 
@@ -458,16 +458,9 @@ h4:hover {
     color: #E7F177;
 }
 
-footer h4{
+footer h4 {
     font-size: 1.2em;
 }
-
-
-
-
-
-
-
 
 
 
@@ -478,9 +471,6 @@ footer h4{
         width: 100%;
     }
 
-    hr{
-        background-color: red;
-    }
     .container {
         max-width: 90%;
     }
@@ -489,6 +479,7 @@ footer h4{
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
+        justify-content: space-around;
     }
 
     header nav a {
@@ -577,7 +568,7 @@ footer h4{
         width: 90%;
     }
 
-    #skills .container{
+    #skills .container {
         width: 80%;
     }
 
@@ -606,7 +597,7 @@ footer h4{
         padding: 10px;
     }
 
-    #skills .text h3{
+    #skills .text h3 {
         font-size: 4.5em;
     }
 
@@ -647,15 +638,16 @@ footer h4{
         padding: 10px;
     }
 
-    #experience h3{
+    #experience h3 {
         font-size: 5em;
 
     }
 
-    #experience .container{
+    #experience .container {
         font-size: 1.4em;
 
     }
+
     #experience .container h2 {
         font-size: 3.2em;
     }
@@ -689,7 +681,7 @@ footer h4{
         justify-content: center;
         align-items: center;
     }
-    
+
 }
 
 
